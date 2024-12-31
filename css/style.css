@@ -966,6 +966,10 @@ form label {
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
+@media screen and (max-width: 768px) {
+  width: auto;
+  height: auto;
+}
 }
 
 @keyframes pulse {
