@@ -967,7 +967,7 @@ form label {
   position: relative;
   animation: pulse 1s ease infinite;
 @media screen and (max-width: 768px) {
-  width: auto;
+  width: 25%;
   height: auto;
 }
 }
@@ -1917,6 +1917,9 @@ form label {
   display: flex;
   justify-content: center;
   gap: 20px;
+  @media screen and (max-width: 768px) {
+    gap: 5px;
+  }
 }
 .countdown-timer div {
   font-size: 18px;
